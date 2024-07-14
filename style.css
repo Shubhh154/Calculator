@@ -1,0 +1,87 @@
+*{
+    background: #000;
+    color: white;
+}
+
+.result{
+    margin: 20px;
+    padding: 25px;
+    font-size: 50px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+input{
+    text-align: right;
+    width: 100%;
+    border: none;
+    margin: 10px;
+    background: transparent;
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.remove{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.backspace{
+    color: #ff8ef7;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.ul{
+    color: aqua;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.border{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.42);
+}
+
+.calc{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+.item{
+    font-size: xx-large;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: rgb(13, 35, 45);
+    border: none;
+    color: rgb(0, 255, 238);
+    cursor: pointer;
+}
+
+.oper{
+    color: #ff8ef7;
+}
+
+.equal{
+    background: #ff08ef;
+    color: whitesmoke;
+}
+
+.clear{
+    color: red;
+}

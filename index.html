@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="result">
+            <input type="text" id="inputBox" placeholder="00" id="">
+        </div>
+        <div class="remove">
+            <ul class="ul">
+                <li class="cursor" onclick="showHistory()"><span class="material-symbols-outlined">
+                    schedule
+                    </span></li>
+                <li class="cursor" ><span class="material-symbols-outlined">
+                    straighten
+                    </span></li>
+                <li class="cursor"><span class="material-symbols-outlined">
+                    calculate
+                    </span></li>
+            </ul>
+
+            <div class="backspace">
+                <span class="material-symbols-outlined">
+                    backspace
+                    </span>
+            </div>
+        </div>
+
+        <div class="border"></div>
+
+        <div class="calc">
+            <button class="item clear">C</button>
+            <button class="item oper">(-</button>
+            <button class="item oper">%</button>
+            <button class="item oper">/</button>
+            <button class="item">7</button>
+            <button class="item">8</button>
+            <button class="item">9</button>
+            <button class="item oper">*</button>
+            <button class="item">4</button>
+            <button class="item">5</button>
+            <button class="item">6</button>
+            <button class="item oper">-</button>
+            <button class="item">1</button>
+            <button class="item">2</button>
+            <button class="item">3</button>
+            <button class="item oper">+</button>
+            <button class="item">00</button>
+            <button class="item">0</button>
+            <button class="item">.</button>
+            <button class="item equal">=</button>
+        </div>
+    </main>
+</body>
+</html>
